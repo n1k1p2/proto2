@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+env/
+.idea/
+.vscode/
+
+# Media storage
+media_blobs/
+
+# SQLite (if used previously)
+*.sqlite3
+postgres_data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Frontend (Node/React)
+client-app/node_modules/
+client-app/dist/
+client-app/.vite/
+client-app/coverage/
+client-app/.eslintcache
+
+# Logs
+*.log
